@@ -6,7 +6,7 @@ while(i<len(string)):
         while(string[j].isalpha()==0):
             num=(num*10)+int(string[j])
             j+=1
-            if(j>=len(string):
+            if(j>=len(string)):
                 break
     if(num%2==0):
         for cnt in range(1,num+1):
