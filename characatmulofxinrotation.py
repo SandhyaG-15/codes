@@ -1,0 +1,14 @@
+string,num=map(str,input().split())
+num=int(num);cnt=1;i=0;flag=0
+while(flag!=1):
+    if(i>=len(string)-1):
+        i=0
+    if(cnt%num!=0):
+        i+=1
+    else:
+        print(string[i],end="")
+        if(i==len(string)-1):
+            flag=1
+            break
+        i+=1
+    cnt+=1    
